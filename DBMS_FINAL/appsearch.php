@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <?php #include("func.php");?>
+ 
 <html>
 <head>
 	<title>Patient Details</title>
@@ -10,6 +10,7 @@
 <body>
 <?php
 include("newfunc.php");
+include('database-connect.php');
 if(isset($_POST['app_search_submit']))
 {
 	$name=$_POST['app_contact'];

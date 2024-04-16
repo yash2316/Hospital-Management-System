@@ -2,7 +2,7 @@
 session_start();
 
 /// handle patient registration
-$con=mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+include('database-connect.php');
 if(isset($_POST['patsub1'])){
 	$fname=$_POST['fname'];
   $lname=$_POST['lname'];

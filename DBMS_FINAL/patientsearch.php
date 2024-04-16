@@ -11,6 +11,7 @@
 <body>
   <?php
   include("newfunc.php");
+  include('database-connect.php');
   if (isset($_POST['patient_search_submit'])) {
     $contact = $_POST['patient_contact'];
     $query = "select * from patreg where fname like '%$contact%' or lname like '%$contact%'";

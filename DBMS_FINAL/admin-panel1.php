@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-$con = mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+include('database-connect.php');
 
 
 // add new doctor
@@ -274,8 +274,8 @@ if (isset($_POST['docsub1'])) {
               </thead>
               <tbody>
                 <?php
-                $con = mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
-                //global $con;
+                
+                global $con;
                 $query = "select * from doctb";
                 $result = mysqli_query($con, $query);
                 while ($row = mysqli_fetch_array($result)) {
@@ -323,7 +323,7 @@ if (isset($_POST['docsub1'])) {
               </thead>
               <tbody>
                 <?php
-                $con = mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+                
                 global $con;
                 $query = "select * from patreg";
                 $result = mysqli_query($con, $query);
@@ -379,7 +379,7 @@ if (isset($_POST['docsub1'])) {
                   </thead>
                   <tbody>
                     <?php
-                    $con = mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+                    
                     global $con;
                     $query = "select * from prestb pr join patreg pa on pa.pid=pr.pid join appointmenttb a on a.ID=pr.ID ;";
                     $result = mysqli_query($con, $query);
@@ -452,7 +452,7 @@ if (isset($_POST['docsub1'])) {
               <tbody>
                 <?php
 
-                $con = mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+                
                 global $con;
 
                 $query = "select * from appointmenttb a join doctb d on d.username=a.doctor  join patreg p on a.pid=p.pid ;";

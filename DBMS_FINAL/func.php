@@ -2,7 +2,7 @@
 session_start();
 
 // handle login for Patients
-$con = mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+include('database-connect.php');
 if (isset($_POST['patsub'])) {
   $email = $_POST['email'];
   $password = $_POST['password2'];

@@ -3,7 +3,7 @@
 session_start();
 function generate_bill()
 {
-    $con = mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+    include('database-connect.php');
     $pid = $_SESSION['pid'];
     $id = $_GET['ID'];
     $output = '';

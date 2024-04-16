@@ -2,7 +2,7 @@
 session_start();
 
 //handle login for doctor
-$con=mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+include('database-connect.php');
 if(isset($_POST['docsub1'])){
 	$dname=$_POST['username3'];
 	$dpass=$_POST['password3'];

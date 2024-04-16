@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
 include('func1.php');
+include('database-connect.php');
 $pid='';
 $ID='';
 $appdate='';

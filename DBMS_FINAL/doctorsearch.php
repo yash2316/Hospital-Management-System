@@ -12,6 +12,7 @@
 <body>
   <?php
   include("newfunc.php");
+  include('database-connect.php');
   if (isset($_POST['doctor_search_submit'])) {
     $contact = $_POST['doctor_contact'];
     $query = "select * from doctb where email like '%$contact%' or username like '%$contact%'";

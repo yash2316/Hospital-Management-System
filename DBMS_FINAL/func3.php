@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con = mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+include('database-connect.php');
 
 /// admin Login 
 if (isset($_POST['adsub'])) {

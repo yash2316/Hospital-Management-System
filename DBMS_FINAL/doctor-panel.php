@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <?php
 include('func1.php');
-$con = mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+include('database-connect.php');
+
 $doctor = $_SESSION['dname'];
 if (isset($_GET['cancel'])) {
   $query = mysqli_query($con, "update appointmenttb set doctorStatus='0' where ID = '" . $_GET['ID'] . "'");
@@ -175,7 +176,8 @@ if (isset($_GET['prescribe'])) {
               </thead>
               <tbody>
                 <?php
-                $con = mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+                include('database-connect.php');
+
                 global $con;
                 $dname = $_SESSION['dname'];
                 $query = "select a.pid,ID,fname,lname,gender,p.email,contact,appdate,apptime,userStatus,doctorStatus 
@@ -262,7 +264,8 @@ if (isset($_GET['prescribe'])) {
               <tbody>
                 <?php
 
-                $con = mysqli_connect("localhost", "root", "dellvostro143000", "hms_project");
+                include('database-connect.php');
+
                 global $con;
 
                 $query = "select p.pid,fname,lname,p.ID,appdate,apptime,disease,allergy,prescription 
