@@ -3,6 +3,8 @@ Introduction
 
 This Hospital Management System is a web-based application developed using MySQL, PHP, HTML, CSS, and JavaScript. It provides a comprehensive platform for managing patients, doctors, appointments, and prescriptions within a hospital environment. The system is designed to facilitate efficient communication and management between patients, doctors, and administrators.
 Features
+
+
 Patient Module
 
     Login: Patients can log in to their accounts securely.
