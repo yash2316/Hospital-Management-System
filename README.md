@@ -7,7 +7,7 @@ Features:
 
 Patient Module
 
-    Login: Patients can log in to their accounts securely.
+Login: Patients can log in to their accounts securely.
     Registration: New patients can register themselves in the system.
     Appointment Booking: Patients can book appointments with doctors for a specific date and time.
     View Appointments: Patients can view their upcoming appointments.
@@ -21,7 +21,7 @@ Patient Module
 
 Doctor Module
 
-    Login: Doctors can log in to their accounts.
+Login: Doctors can log in to their accounts.
     View Appointments: Doctors can view their upcoming appointments.
     Prescription: Doctors can prescribe medications and treatments to patients.
     Appointment Management: Doctors can manage their appointment schedule.
@@ -33,7 +33,7 @@ Doctor Module
 
 Admin Module
 
-    Login: Admin can log in to the system.
+Login: Admin can log in to the system.
     View Lists: Admin can view lists of patients, doctors, appointments, and prescriptions.
     Search Functionality: Admin can search for patients and doctors by their name.
     Add/Delete Doctors: Admin can insert new doctors into the system or remove existing ones.
@@ -49,7 +49,7 @@ Database Schema
 
 Setup Instructions
 
-    Database Setup:
+ Database Setup:
         Import the provided "sql tables.php" file into your MySQL database server and run all the queries.
     PHP Configuration:
         Configure the database connection settings in database-config.php file.
@@ -58,6 +58,6 @@ Setup Instructions
 
 Technologies Used
 
-    Frontend: HTML, CSS, JavaScript, Bootstrap
+Frontend: HTML, CSS, JavaScript, Bootstrap
     Backend: PHP
     Database: MySQL
