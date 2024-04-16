@@ -50,15 +50,22 @@ Login: Admin can log in to the system.
 
 ## Setup Instructions
 
- Database Setup:
-        Import the provided "sql tables.php" file into your MySQL database server and run all the queries.
-    PHP Configuration:
-        Configure the database connection settings in database-config.php file.
-    Web Server Configuration:
-          Run php server using command : php -S 127.0.0.1:8000
+Database Setup:
+
+Import the provided "sql tables.php" file into your MySQL database server and run all the queries.
+
+PHP Configuration:
+
+Configure the database connection settings in database-config.php file.
+
+Web Server Configuration:
+
+Run php server using command : php -S 127.0.0.1:8000
 
 ## Technologies Used
 
 Frontend: HTML, CSS, JavaScript, Bootstrap
-    Backend: PHP
-    Database: MySQL
+
+Backend: PHP
+    
+Database: MySQL
