@@ -1,11 +1,11 @@
-Hospital Management System
-Introduction
+#Hospital Management System
+##Introduction
 
 This Hospital Management System is a web-based application developed using MySQL, PHP, HTML, CSS, and JavaScript. It provides a comprehensive platform for managing patients, doctors, appointments, and prescriptions within a hospital environment. The system is designed to facilitate efficient communication and management between patients, doctors, and administrators.
 Features:
 
 
-Patient Module
+##Patient Module
 
 Login: Patients can log in to their accounts securely.
     Registration: New patients can register themselves in the system.
@@ -19,7 +19,7 @@ Login: Patients can log in to their accounts securely.
 
 
 
-Doctor Module
+##Doctor Module
 
 Login: Doctors can log in to their accounts.
     View Appointments: Doctors can view their upcoming appointments.
@@ -31,7 +31,7 @@ Login: Doctors can log in to their accounts.
 
     
 
-Admin Module
+##Admin Module
 
 Login: Admin can log in to the system.
     View Lists: Admin can view lists of patients, doctors, appointments, and prescriptions.
@@ -42,12 +42,12 @@ Login: Admin can log in to the system.
 ![image](https://github.com/yash2316/Hospital-Management-System/assets/141305637/55efee4b-e718-4c96-ba86-e244d37dc7ca)
 ![image](https://github.com/yash2316/Hospital-Management-System/assets/141305637/cc8426f0-f344-4204-8ce1-70ce5a982004)
 
-Database Schema
+##Database Schema
 
 ![image](https://github.com/yash2316/Hospital-Management-System/assets/141305637/daea5801-cee7-4001-922f-8c097731aceb)
 
 
-Setup Instructions
+##Setup Instructions
 
  Database Setup:
         Import the provided "sql tables.php" file into your MySQL database server and run all the queries.
@@ -56,7 +56,7 @@ Setup Instructions
     Web Server Configuration:
           Run php server using command : php -S 127.0.0.1:8000
 
-Technologies Used
+##Technologies Used
 
 Frontend: HTML, CSS, JavaScript, Bootstrap
     Backend: PHP
